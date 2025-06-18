@@ -14,6 +14,11 @@ section {
 
 section:nth-child(even) {
   background-color: #b9ffb0;
+  color: darkviolet;
+}
+
+section:nth-child(even) form button {
+  color: darkviolet;
 }
 
 form {
