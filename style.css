@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 200px;
+  text-align: center;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+section:nth-child(even) {
+  background-color: #b9ffb0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formelement {
+  padding: 4px;
+  margin: 4px 6px;
+  width: 160px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.formelement:first-child {
+  margin-top: 10px;
+}
+
+.formelement:nth-child(even) {
+  background-color: lightgoldenrodyellow;
+}
+
+.formelement:nth-child(odd) {
+  background-color: #fccbff;
+}
+
+button {
+  margin-top: 12px;
+  border-radius: 8px;
+  width: 180px;
+  background-color: lightyellow;
+}
+
+section p {
+  margin: 8px;
+}
