@@ -14,92 +14,94 @@
       <div class="formelement">
         <label for="firstname">First Name</label>
         <br>
-        <input type="text" id="firstname">
+        <input type="text" id="firstname" name="qsfirstname">
         <br>
       </div>
       <div class="formelement">
         <label for="lastname">Last Name</label>
         <br>
-        <input type="text" id="lastname">
+        <input type="text" id="lastname" name="qslastname">
         <br>
       </div>
       <button type="submit">Submit</button>
     </form>
-    <p id="formstringout">Please enter first and last names.</p>
+    <p id="form-string-out">Please enter first and last names.</p>
   </section>
   <section>
     <form id="form-math">
       <div class="formelement">
         <label for="price">Price</label>
         <br>
-        <input type="text" id="price">
+        <input type="text" id="price" name="qsprice">
         <br>
       </div>
       <div class="formelement">
         <label for="quantity">Quantity</label>
         <br>
-        <input type="text" id="quantity">
+        <input type="text" id="quantity" name="qsquantity">
         <br>
       </div>
       <div class="formelement">
         <label for="taxrate">Tax Rate</label>
         <br>
-        <input type="text" id="taxrate">
+        <input type="text" id="taxrate" name="qstaxrate">
         <br>
       </div>
       <button type="submit">Get Total Cost</button>
     </form>
-    <p id="formstringout">Please enter price, quantity, and tax rate.</p>
+    <p id="form-math-out">Please enter price, quantity, and tax rate.</p>
   </section>
   <section>
-    <form id="formstring">
+    <form id="form-eligibility">
       <div class="formelement">
         <label for="age">Age</label>
         <br>
-        <input type="text" id="age">
+        <input type="text" id="age" name="qsage">
         <br>
       </div>
       <div class="formelement">
+        <input type="radio" id="isemployed" name="qsisemployed" value="valueIsEmployed">
         <label for="isemployed">Is Employed</label>
         <br>
-        <input type="text" id="isemployed">
+        <input type="radio" id="isnotemployed" name="qsisemployed" value="valueIsNotEmployed">
+        <label for="isnotemployed">Is Not Employed</label>
         <br>
       </div>
       <button type="submit">Check Eligibility</button>
     </form>
-    <p id="formstringout">Please enter age and employment status to check eligibility.</p>
+    <p id="form-eligibility-out">Please enter age and employment status to check eligibility.</p>
   </section>
   <section>
     <form id="form-math-refactor">
       <div class="formelement">
         <label for="price2">Price</label>
         <br>
-        <input type="text" id="price2">
+        <input type="text" id="price2" name="qsprice2">
         <br>
       </div>
       <div class="formelement">
         <label for="quantity2">Quantity</label>
         <br>
-        <input type="text" id="quantity2">
+        <input type="text" id="quantity2" name="qsquantity2">
         <br>
       </div>
       <div class="formelement">
         <label for="taxrate2">Tax Rate</label>
         <br>
-        <input type="text" id="taxrate2">
+        <input type="text" id="taxrate2" name="qstaxrate2">
         <br>
       </div>
       <div class="formelement">
         <label for="discount2">Discount</label>
         <br>
-        <input type="text" id="discount2">
+        <input type="text" id="discount2" name="qsdiscount2">
         <br>
       </div>
       <button type="submit">Get Total Cost After Any Discount</button>
     </form>
-    <p id="formstringout">Please enter price, quantity, tax rate, and optionally discount.</p>
+    <p id="form-math-refactor-out">Please enter price, quantity, tax rate, and optionally discount.</p>
   </section>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 
